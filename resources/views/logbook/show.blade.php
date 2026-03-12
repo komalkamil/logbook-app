@@ -63,7 +63,7 @@
                                         <td>{{ $detail->deskripsi }}</td>
                                         <td>
                                             <div class="badge bg-secondary text-white">
-                                                {{ $detail->pekerja }}
+                                                <p>{{ $detail->pekerja }}</p>
                                             </div>
                                         </td>
                                         <td>{{ $detail->waktu }}</td>
