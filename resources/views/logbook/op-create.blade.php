@@ -42,15 +42,6 @@
                             <option value="Pagi">Pagi</option>
                             <option value="Siang">Siang</option>
                             <option value="Malam">Malam</option>
-                            <option>
-
-                                <span class="input-group-text">
-                                    <input class="form-check-input m-0" type="checkbox" />
-                                </span>
-                                <input type="text" class="form-control" autocomplete="off" />
-
-                            </option>
-
                         </select>
                     </div>
 
