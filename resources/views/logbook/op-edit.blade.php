@@ -24,7 +24,8 @@
             <div class="row">
 
                 <input type="hidden" name="user_id" value="{{ auth()->user()->id }}">
-                <input type="hidden" name="hm" value="{{ $logbook->hm }}">
+                <label for="hm">Hour Meter :</label>
+                <input type="text" name="hm" id="hm" value="{{ $logbook->hm }}">
 
                 <label>Nama : {{ auth()->user()->name }}</label><br>
                 <label>Unit : {{ auth()->user()->unit }}</label><br>
