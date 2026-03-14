@@ -24,12 +24,12 @@
             <div class="row">
 
                 <input type="hidden" name="user_id" value="{{ auth()->user()->id }}">
-                <label for="hm">Hour Meter :</label>
-                <input type="text" name="hm" id="hm" value="{{ $logbook->hm }}">
+
 
                 <label>Nama : {{ auth()->user()->name }}</label><br>
                 <label>Unit : {{ auth()->user()->unit }}</label><br>
-
+                <label for="hm">Hour Meter :</label>
+                <input class="form-control" type="text" name="hm" id="hm" value="{{ $logbook->hm }}">
                 <div class="col-md-4">
                     <input type="date" name="tanggal" value="{{ $logbook->tanggal }}"
                         class="input-group w-full border rounded p-1 my-2">
